@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    padding: 10px 0 10px 40px;
+    background-color: #f08a5d;
+    color: white;
+}
+
+nav>ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.country {
+    list-style-type: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #f08a5d;
+    display: none;
+
+}
+
+.country li {
+    width: 100%;
+    padding: 10px;
+    margin-left: -10px;
+    background-color: #f08a5d;
+}
+
+.country li:hover {
+    color: #f08a5d;
+    background-color: white;
+    transition: 0.5s;
+}
+
+section {
+    background-color: #e7e7de;
+    /* padding-top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div {
+    width: 20%;
+    height: 60vh;
+    margin-left: 150px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section div p {
+    font-size: 0.8em;
+    margin: 20px 10px;
+    overflow-y: scroll;
+}
+
+section img {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.button {
+    background-color: #0278ae;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+section h3 {
+    margin-left: 10px;
+    font-size: 1em;
+}
+
+.button {
+    text-align: center;
+    width: 40%;
+    align-self: center;
+    cursor: pointer;
+}
